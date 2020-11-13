@@ -1,0 +1,14 @@
+.main
+{
+    border: 2px solid mediumseagreen;
+    background-color: aqua;
+    overflow: auto;
+
+}
+
+img
+{
+
+    float: right;
+
+}

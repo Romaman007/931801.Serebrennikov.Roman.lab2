@@ -1,0 +1,61 @@
+.main
+{
+
+    width: 100%;
+    border: 1px solid green;
+    background-color: aqua;
+}
+
+.up
+{
+    float: left;
+    padding-right: 380px;
+    height: 90px;
+    background-color: bisque;
+
+}
+img
+{
+    float: right;
+    width: 50%;
+
+}
+
+.middle
+{
+    background-color: darkgrey;
+    margin-left: 480px;
+    overflow: hidden;
+
+}
+
+.botton
+{
+    clear: right;
+}
+
+
+@media screen and (max-width: 660px)
+{
+    .main
+    {
+        display: block;
+    }
+
+    .up
+    {
+
+        width: 120px;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+
+    .middle
+    {
+        clear: right;
+        margin-left: 125px;
+
+    }
+
+
+}

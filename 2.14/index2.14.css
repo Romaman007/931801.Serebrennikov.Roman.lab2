@@ -1,0 +1,61 @@
+.main
+{
+    display: flex;
+    width: 100%;
+
+    border: 1px solid green;
+    background-color: aqua;
+}
+
+.up
+{
+    padding-right: 380px;
+    height: 90px;
+    background-color: bisque;
+
+}
+
+.botton
+{
+    background-color: darkgrey;
+
+
+}
+
+@media screen and (max-width: 660px)
+{
+    .main
+    {
+        display: block;
+    }
+
+    ul
+    {
+        list-style: none;
+    }
+    li:first-child
+    {
+        margin-right: 5px;
+        float: left;
+    }
+    li:nth-child(2)
+    {
+        margin-right: 5px;
+        float: left;
+    }
+
+    .up
+    {
+       width: 100%;
+        padding: 0;
+        margin: 20px 0px;
+        height: 20px;
+    }
+
+    .botton
+    {
+        width: 100%;
+    }
+
+
+}

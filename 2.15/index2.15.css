@@ -1,0 +1,13 @@
+.block {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    margin: 15px;
+
+}
+
+.button
+{
+    background-color: bisque;
+}

@@ -1,0 +1,46 @@
+.main
+{
+    display: flex;
+    width: 100%;
+
+    border: 1px solid green;
+    background-color: aqua;
+}
+
+.up
+{
+    padding-right: 380px;
+    height: 90px;
+    background-color: bisque;
+
+}
+
+.botton
+{
+    background-color: darkgrey;
+    margin: 0 5px;
+
+}
+
+@media screen and (max-width: 660px)
+{
+    .main
+    {
+        display: block;
+    }
+
+    .up
+    {
+        width: 120px;
+        padding-top: 5px;
+        padding-right: 5px;
+    }
+
+    .botton
+    {
+        width: 360px;
+        margin: 0;
+    }
+
+
+}

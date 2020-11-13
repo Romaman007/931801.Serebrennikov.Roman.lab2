@@ -1,0 +1,15 @@
+.main
+{
+    margin:auto;
+    background-color: blue;
+    color: #eeeeee;
+    margin: auto;
+    width: 600px;
+}
+.image
+{
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
